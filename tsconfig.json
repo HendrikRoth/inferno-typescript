@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"outDir": "bin",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"target": "es6",
+		"jsx": "preserve",
+		"module": "commonjs"
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"files": [
+		"typings/index.d.ts",
+		"src/index.tsx"
+	]
+}
